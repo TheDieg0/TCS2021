@@ -9,7 +9,13 @@ DEBUG=True
 
 @app.route('/', methods=['GET'])
 def index ():
-    return '<h1>Endpoint para de pruebita</h1>'
+    return '''<h1>TCS 2021 - RUTAS</h1>
+                <ul>
+                <li>datos</li>
+                <li>metodo_codo</li>
+                <li>transform</li>
+                <li>dbscan_model</li>
+                </ul>'''
 
 @app.route('/datos', methods=['GET'])
 def index2 ():
